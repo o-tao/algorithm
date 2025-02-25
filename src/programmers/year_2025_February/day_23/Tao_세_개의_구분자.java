@@ -5,11 +5,11 @@ import java.util.Arrays;
 public class Tao_세_개의_구분자 {
 
     public static void main(String[] args) {
-        Tao_세_개의_구분자 answer = new Tao_세_개의_구분자();
+        Tao_세_개의_구분자 tao = new Tao_세_개의_구분자();
 
         String myStr = "baconlettucetomato";
 
-        System.out.println(Arrays.toString(answer.solution(myStr)));
+        System.out.println(Arrays.toString(tao.solution(myStr)));
     }
 
     public String[] solution(String myStr) {

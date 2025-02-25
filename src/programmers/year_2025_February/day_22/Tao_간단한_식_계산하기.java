@@ -3,11 +3,11 @@ package programmers.year_2025_February.day_22;
 public class Tao_간단한_식_계산하기 {
 
     public static void main(String[] args) {
-        Tao_간단한_식_계산하기 answer = new Tao_간단한_식_계산하기();
+        Tao_간단한_식_계산하기 tao = new Tao_간단한_식_계산하기();
 
         String binomial = "43 + 12";
 
-        System.out.println(answer.solution(binomial));
+        System.out.println(tao.solution(binomial));
     }
 
     public int solution(String binomial) {

@@ -6,10 +6,10 @@ import java.util.Arrays;
 public class Tao_왼쪽_오른쪽 {
 
     public static void main(String[] args) {
-        Tao_왼쪽_오른쪽 answer = new Tao_왼쪽_오른쪽();
+        Tao_왼쪽_오른쪽 tao = new Tao_왼쪽_오른쪽();
         String[] str_list = {"u", "u", "l"};
 
-        System.out.println(Arrays.toString(answer.solution(str_list)));
+        System.out.println(Arrays.toString(tao.solution(str_list)));
     }
 
     public String[] solution(String[] str_list) {

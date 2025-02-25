@@ -4,10 +4,10 @@ package programmers.year_2025_February.day_17;
 public class Tao_홀수_vs_짝수 {
 
     public static void main(String[] args) {
-        Tao_홀수_vs_짝수 answer = new Tao_홀수_vs_짝수();
+        Tao_홀수_vs_짝수 tao = new Tao_홀수_vs_짝수();
         int[] num_list = {4, 2, 6, 1, 7, 6};
 
-        System.out.println(answer.solution(num_list));
+        System.out.println(tao.solution(num_list));
     }
 
     public int solution(int[] num_list) {

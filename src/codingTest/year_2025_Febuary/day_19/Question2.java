@@ -5,11 +5,11 @@ public class Question2 {
     // 결제 금액의 5%를 적립 / 3,000포인트 미만 시 3,000포인트 지급 / 30000포인트 이상 시 30,000포인트 지급 / 10단위 제거 (3650 포인트 -> 3600 포인트)
 
     public static void main(String[] args) {
-        Question2 answer = new Question2();
+        Question2 tao = new Question2();
 
         String pay = "75500";
 
-        System.out.println(answer.solution(pay));
+        System.out.println(tao.solution(pay));
     }
 
     public int solution(String pay) {

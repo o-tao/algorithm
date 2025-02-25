@@ -6,11 +6,11 @@ import java.util.Arrays;
 public class Tao_n개_간격의_원소들 {
 
     public static void main(String[] args) {
-        Tao_n개_간격의_원소들 answer = new Tao_n개_간격의_원소들();
+        Tao_n개_간격의_원소들 tao = new Tao_n개_간격의_원소들();
         int[] num_list = {4, 2, 6, 1, 7, 6};
         int n = 2;
 
-        System.out.println(Arrays.toString(answer.solution(num_list, n)));
+        System.out.println(Arrays.toString(tao.solution(num_list, n)));
     }
 
     public int[] solution(int[] num_list, int n) {

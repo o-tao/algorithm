@@ -7,11 +7,11 @@ import java.util.Arrays;
 public class Tao_n_번째_원소부터 {
 
     public static void main(String[] args) {
-        Tao_n_번째_원소부터 answer = new Tao_n_번째_원소부터();
+        Tao_n_번째_원소부터 tao = new Tao_n_번째_원소부터();
         int[] num_list = {5, 2, 1, 7, 5};
         int n = 2;
 
-        System.out.println(Arrays.toString(answer.solution(num_list, n)));
+        System.out.println(Arrays.toString(tao.solution(num_list, n)));
     }
 
     public int[] solution(int[] num_list, int n) {

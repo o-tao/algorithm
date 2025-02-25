@@ -5,11 +5,11 @@ import java.util.Arrays;
 public class Tao_조건에_맞게_수열_변환하기_1 {
 
     public static void main(String[] args) {
-        Tao_조건에_맞게_수열_변환하기_1 answer = new Tao_조건에_맞게_수열_변환하기_1();
+        Tao_조건에_맞게_수열_변환하기_1 tao = new Tao_조건에_맞게_수열_변환하기_1();
 
         int[] arr = {1, 2, 3, 100, 99, 98};
 
-        System.out.println(Arrays.toString(answer.solution(arr)));
+        System.out.println(Arrays.toString(tao.solution(arr)));
     }
 
     public int[] solution(int[] arr) {

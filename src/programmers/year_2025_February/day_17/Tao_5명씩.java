@@ -8,10 +8,10 @@ public class Tao_5명씩 {
     // 5명씩
 
     public static void main(String[] args) {
-        Tao_5명씩 answer = new Tao_5명씩();
+        Tao_5명씩 tao = new Tao_5명씩();
         String[] names = {"nami", "ahri", "jayce", "garen", "ivern", "vex", "jinx"};
 
-        System.out.println(Arrays.toString(answer.solution(names)));
+        System.out.println(Arrays.toString(tao.solution(names)));
     }
 
     public String[] solution(String[] names) {

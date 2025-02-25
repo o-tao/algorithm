@@ -5,11 +5,11 @@ import java.util.Arrays;
 public class Tao_x_사이의_개수 {
 
     public static void main(String[] args) {
-        Tao_x_사이의_개수 answer = new Tao_x_사이의_개수();
+        Tao_x_사이의_개수 tao = new Tao_x_사이의_개수();
 
         String myString = "oxooxoxxox";
 
-        System.out.println(Arrays.toString(answer.solution(myString)));
+        System.out.println(Arrays.toString(tao.solution(myString)));
     }
 
     public int[] solution(String myString) {

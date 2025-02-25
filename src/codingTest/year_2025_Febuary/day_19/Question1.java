@@ -5,11 +5,11 @@ public class Question1 {
     // 1000000 -> 1,000,000 으로 출력하시오.
 
     public static void main(String[] args) {
-        Question1 answer = new Question1();
+        Question1 tao = new Question1();
 
         String pay = "1000000";
 
-        System.out.println(answer.solution(pay));
+        System.out.println(tao.solution(pay));
     }
 
     public String solution(String pay) {
