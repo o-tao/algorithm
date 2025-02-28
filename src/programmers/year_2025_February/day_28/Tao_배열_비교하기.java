@@ -1,5 +1,8 @@
 package programmers.year_2025_February.day_28;
 
+
+import java.util.stream.IntStream;
+
 public class Tao_배열_비교하기 {
 
     public static void main(String[] args) {
@@ -12,22 +15,29 @@ public class Tao_배열_비교하기 {
     }
 
     public int solution(int[] arr1, int[] arr2) {
-        int answer = 0;
-        int sum1 = 0;
-        int sum2 = 0;
+        int answer = Integer.compare(arr1.length, arr2.length);
 
-        for (int i : arr1) {
-            sum1 += i;
-        }
-        for (int i : arr2) {
-            sum2 += i;
-        }
-
-        if (arr1.length > arr2.length || arr1.length == arr2.length && sum1 > sum2) {
-            return 1;
-        } else if (arr1.length < arr2.length || arr1.length == arr2.length && sum1 < sum2) {
-            return -1;
+        if (answer == 0) {
+            return Integer.compare(IntStream.of(arr1).sum(), IntStream.of(arr2).sum());
         }
         return answer;
+
+//        int answer = 0;
+//        int sum1 = 0;
+//        int sum2 = 0;
+//
+//        for (int i : arr1) {
+//            sum1 += i;
+//        }
+//        for (int i : arr2) {
+//            sum2 += i;
+//        }
+//
+//        if (arr1.length > arr2.length || arr1.length == arr2.length && sum1 > sum2) {
+//            return 1;
+//        } else if (arr1.length < arr2.length || arr1.length == arr2.length && sum1 < sum2) {
+//            return -1;
+//        }
+//        return answer;
     }
 }
