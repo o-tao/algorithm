@@ -1,7 +1,8 @@
 package programmers.year_2025.march.day_06;
 
 import java.util.Arrays;
-import java.util.stream.IntStream;
+import java.util.Set;
+import java.util.stream.Collectors;
 
 public class Tao_배열의_원소_삭제하기 {
 
@@ -15,6 +16,12 @@ public class Tao_배열의_원소_삭제하기 {
     }
 
     public int[] solution(int[] arr, int[] delete_list) {
-        return IntStream.of(arr).filter(i -> IntStream.of(delete_list).noneMatch(j -> j == i)).toArray();
+        Set<Integer> deleteSet = Arrays.stream(delete_list)
+                .boxed()
+                .collect(Collectors.toSet());
+
+        return Arrays.stream(arr)
+                .filter(i -> !deleteSet.contains(i))
+                .toArray();
     }
 }
