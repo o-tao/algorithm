@@ -2,10 +2,10 @@ package programmers.year_2025.april;
 
 import java.util.Arrays;
 
-public class Day_행렬의_덧셈 {
+public class Day_11_행렬의_덧셈 {
 
     public static void main(String[] args) {
-        Day_행렬의_덧셈 tao = new Day_행렬의_덧셈();
+        Day_11_행렬의_덧셈 tao = new Day_11_행렬의_덧셈();
 
         int[][] arr1 = {{1, 2}, {2, 3}};
         int[][] arr2 = {{3, 4}, {5, 6}};
