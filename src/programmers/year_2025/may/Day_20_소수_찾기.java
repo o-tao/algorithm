@@ -1,9 +1,9 @@
 package programmers.year_2025.may;
 
-public class Day_19_소수_찾기 {
+public class Day_20_소수_찾기 {
 
     public static void main(String[] args) {
-        Day_19_소수_찾기 tao = new Day_19_소수_찾기();
+        Day_20_소수_찾기 tao = new Day_20_소수_찾기();
 
         int n = 10;
 
