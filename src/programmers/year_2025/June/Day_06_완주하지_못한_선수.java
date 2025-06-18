@@ -1,4 +1,4 @@
-package programmers.year_2025.july;
+package programmers.year_2025.June;
 
 import java.util.HashMap;
 import java.util.Map;

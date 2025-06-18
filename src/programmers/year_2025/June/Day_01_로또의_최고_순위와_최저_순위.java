@@ -1,4 +1,4 @@
-package programmers.year_2025.july;
+package programmers.year_2025.June;
 
 import java.util.Arrays;
 import java.util.Set;
@@ -28,12 +28,12 @@ public class Day_01_로또의_최고_순위와_최저_순위 {
                 .filter(n -> n != 0 && winSet.contains(n))
                 .count();
 
-        int maxMatch = (int)(matchCount + zeroCount);
-        int minMatch = (int)matchCount;
+        int maxMatch = (int) (matchCount + zeroCount);
+        int minMatch = (int) matchCount;
 
         int maxRank = maxMatch >= 2 ? 7 - maxMatch : 6;
         int minRank = minMatch >= 2 ? 7 - minMatch : 6;
 
-        return new int[] { maxRank, minRank };
+        return new int[]{maxRank, minRank};
     }
 }

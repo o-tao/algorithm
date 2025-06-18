@@ -1,4 +1,4 @@
-package programmers.year_2025.july;
+package programmers.year_2025.June;
 
 public class Day_17_최댓값과_최솟값 {
 

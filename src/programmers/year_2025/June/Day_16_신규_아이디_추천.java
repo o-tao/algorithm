@@ -1,4 +1,4 @@
-package programmers.year_2025.july;
+package programmers.year_2025.June;
 
 public class Day_16_신규_아이디_추천 {
 
