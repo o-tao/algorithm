@@ -1,6 +1,6 @@
 package programmers_kotlin.year_2025.october
 
-class Day_10_각도기 {
+private class Day_10_각도기 {
     fun solution(angle: Int): Int {
         return when {
             angle in 1..89 -> 1
