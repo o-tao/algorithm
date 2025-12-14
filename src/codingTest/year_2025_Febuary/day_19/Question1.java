@@ -10,6 +10,9 @@ public class Question1 {
         String pay = "1000000";
 
         System.out.println(tao.solution(pay));
+
+        // 정규식 사용
+        System.out.println(pay.replaceAll("(\\d)(?=(\\d{3})+$)", "$1,"));
     }
 
     public String solution(String pay) {
@@ -43,9 +46,8 @@ public class Question1 {
 
     // 재귀 함수 사용
     private String addComma(String pay) {
-        if (pay.length() <= 3) {
-            return pay;
-        }
+        if (pay.length() <= 3) return pay;
+
         return addComma(pay.substring(0, pay.length() - 3)) + "," + pay.substring(pay.length() - 3);
     }
 }
