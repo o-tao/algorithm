@@ -1,6 +1,6 @@
 package programmers_kotlin.year_2026.january
 
-class Day_27_길이에_따른_연산 {
+private class Day_27_길이에_따른_연산 {
     fun solution(numList: IntArray): Int =
         if (numList.size >= 11) {
             numList.sum()
