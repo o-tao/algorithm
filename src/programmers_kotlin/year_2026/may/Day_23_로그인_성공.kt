@@ -1,6 +1,6 @@
 package programmers_kotlin.year_2026.may
 
-class Day_23_로그인_성공 {
+private class Day_23_로그인_성공 {
     fun solution(id_pw: Array<String>, db: Array<Array<String>>): String {
         for (user in db) {
             if (user[0] == id_pw[0]) {
